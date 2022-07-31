@@ -1,3 +1,7 @@
+document.querySelector(".menu-btn").addEventListener("click", () => {
+  document.querySelector(".nav-menu").classList.toggle("show");
+});
+
 function App() {}
 
 window.onload = function (event) {
@@ -37,5 +41,3 @@ let nextAction = (leftPosition, trackWidth, listWidth, slickWidth, track) => {
     track.style.left = `${-1 * (leftPosition + slickWidth)}px`;
   }
 };
-
-$("artcar").toggleClass("paused");
