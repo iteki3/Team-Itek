@@ -751,13 +751,13 @@ a {
 
 /* Movil */
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   .if,
   .if2 {
     font-size: 2%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   .menu-btn {
     display: block;
   }
@@ -803,13 +803,13 @@ a {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   .c-tiles {
     width: 80%;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
   .c-tiles {
     width: 100%;
     padding: 60px 20px;
