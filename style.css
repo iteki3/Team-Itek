@@ -136,6 +136,23 @@ ul {
   }
 }
 
+/* .btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #262626;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+}
+
+.btn:hover {
+  opacity: 0.9;
+} */
+/* **************************** */
+
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -151,18 +168,20 @@ ul {
 .btn:hover {
   opacity: 0.9;
 }
-/* **************************** */
+
 .showcase {
-  width: 50%;
+  width: 40%;
   height: 550px;
   background: url("./images/iteck.png") no-repeat center center/cover;
+  padding: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: flex-end;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
+  margin: auto;
+  /* padding-bottom: 50px; */
+  /* margin-bottom: 20px; */
   color: #fff;
 }
 
@@ -170,6 +189,11 @@ ul {
 .showcase p {
   margin-bottom: 10px;
 }
+
+.showcase .btn {
+  margin-top: 20px;
+}
+
 /* **************************** */
 
 .c-tiles {
