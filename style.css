@@ -190,6 +190,12 @@ ul {
   display: flex;
 }
 
+.showcase3 {
+  width: 40%;
+  align-content: center;
+  display: flex;
+}
+
 .showcase h2,
 .showcase p {
   margin-bottom: 10px;
@@ -571,7 +577,7 @@ ul {
 }
 
 .imcarru {
-  width: 100%;
+  width: 50%;
 }
 
 @keyframes bannermove {
