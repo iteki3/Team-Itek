@@ -94,7 +94,7 @@ img{
   font-family: sans-serif;}
   
   .contenedor{
-      width: 100%;
+      width: 95%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -159,7 +159,7 @@ img{
     font-family: sans-serif;}
     
     .contenedor1{
-        width: 62%;
+        width: 90%;
         display: flex;
         justify-content: right;
         align-items: right;
