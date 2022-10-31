@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #ffffff;
+    background: #212226;
 }
 
 .card {
@@ -54,7 +54,7 @@ body {
     position: absolute;
     width: 350px;
     height: 200px;
-    background: linear-gradient(to right, #0000006a, #047743);
+    background: linear-gradient(to right, #16da546a, #047743);
     transform: rotate(-35deg);
     top: -50px;
     left: -100px;
@@ -68,9 +68,9 @@ body {
 
 .card .content h6 {
     font-size: 13px;
-    color: #5e2066;
+    color: #077a3b;
 }
-
+/*5e2066 morado*/
 .card .content p {
     font-size: 13px;
     color: #1a161f;
@@ -92,7 +92,8 @@ body {
     top: 15px;
     transition: .5s;
 }
-
+/* rgba(255, 255, 255, 0.5);
+box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);*/
 .card:hover .links {
     right: -50px;
     border-radius: 0 10px 10px 0;
@@ -245,23 +246,23 @@ body {
     filter: contrast(250%)
 }
 .container span:nth-child(1){
-    color: #3c3232 ;
+    color: #47429f ;
 }
 .container span:nth-child(2){
-    color: #3c3232;
+    color: #47429f;
 }
 .container span:nth-child(3){
-    color: #3c3232;
+    color: #47429f;
 }
 .container span:nth-child(4){
     color: #ea2424;
 }
 .container span:nth-child(5){
-    color: #14712e;
+    color: #b836a9;
 }
 .container span:nth-child(6){
-    color: #14712e;
+    color: #b836a9;
 }
 .container span:nth-child(7){
-    color: #14712e;
+    color: #b836a9;
 }
